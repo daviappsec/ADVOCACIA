@@ -201,7 +201,7 @@ main {
     box-shadow: 0px 0px 15px rgba(33, 33, 33, 0.178);
 }
 
-.areas{
+.areas {
     font-size: 1.2rem;
     padding: 40px;
 }
@@ -215,13 +215,14 @@ main {
 .areas p {
     font-size: 1.2rem;
 }
-#areas2{
+
+#areas2 {
     padding: 49px;
 }
 
-#areas2 h5{
+#areas2 h5 {
 
-     font-size: 1.6rem;
+    font-size: 1.6rem;
     padding: 10px;
 }
 
@@ -241,4 +242,128 @@ main {
     font-size: 3rem;
     font-weight: 100;
     padding-bottom: 15px;
+}
+
+.nosso {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: var(--text-color);
+    color: var(--color-3);
+}
+
+.paranosso {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    flex: 1;
+}
+
+.nosso2 {
+    padding-top: 20px;
+    background-color: var(--text-color);
+
+}
+
+.nosso2 h3 {
+    padding: 25px 25px 0px 25px;
+    font-size: 2.5rem;
+    margin-left: 23%;
+    color: var(--color-3);
+    font-weight: 100;
+}
+
+.titulodepoimento h2 {
+
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: var(--color-1);
+    text-align: center;
+    padding: 20px;
+}
+
+.titulodepoimento h3 {
+    font-size: 2.7rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+#depoimentos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+}
+
+#depoimentos h4 {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#depoimentos p {
+    font-size: 1.3rem;
+    color: var(--color-1);
+    padding: 20px;
+}
+
+#depoimentos div {
+    box-shadow: 0px 0px 15px rgba(33, 33, 33, 0.178);
+    flex: 1;
+}
+
+footer {
+
+    background-color: var(--text-color);
+}
+
+.cabecalho div {
+    flex: 1;
+}
+
+.cabecalho {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+footer p {
+    color: var(--color-3);
+    font-size: 2rem;
+    padding-right: 15px;
+}
+
+.destaque1 {
+    color: var(--color-1);
+    display: block;
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+.left1 {
+    color: var(--color-3);
+    padding: 0rem;
+    font-size: 2rem;
+    margin-left: 25px;
+
+}
+
+.sub1 {
+    color: var(--color-1);
+    margin-left: 25px;
+
+    padding: 0rem;
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+
+}
+
+.ultimo {
+    font-size: 1.3rem;
+    padding-left: 10px;
+    text-align: center;
 }
