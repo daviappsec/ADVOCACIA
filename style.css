@@ -168,9 +168,11 @@ main {
 }
 
 #copo {
-    background-image: url(BALANCA001.PNG);
+    background-image: url(imagens/BALANCA001.PNG);
     height: 550px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 
 }
 
@@ -397,7 +399,7 @@ footer {
 }
 
 .cabecalho div {
-    flex: 1;
+    flex: 0 1 auto;
 }
 
 .atuaçao,
@@ -412,7 +414,7 @@ footer {
     font-size: 1.3rem;
     align-items: center;
     gap: 10px;
-    padding: 20px;
+    padding: 15px;
 
     display: flex;
     flex-wrap: wrap;
@@ -422,7 +424,7 @@ footer {
 footer p {
     color: var(--color-3);
     font-size: 1.2rem;
-    padding-right: 15px;
+    padding-right: 10px;
 
 }
 
@@ -430,20 +432,20 @@ footer p {
     color: var(--color-1);
     display: block;
     font-size: 2rem;
-    margin-left: 25px;
+    margin-left: 0px;
 }
 
 .left1 {
     color: var(--color-3);
     padding: 0rem;
     font-size: 2rem;
-    margin-left: 25px;
+    margin-left: 0px;
 
 }
 
 .sub1 {
     color: var(--color-1);
-    margin-left: 25px;
+    margin-left: 0px;
 
     padding: 0rem;
     text-align: left;
