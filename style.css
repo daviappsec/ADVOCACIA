@@ -17,42 +17,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-
-
 }
-
-@media (max-width: 1020px) {
-
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    nav {
-        margin-top: 30px;
-        font-size: 1.2rem;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        margin: 0;
-    }
-
-    .destaque,
-    .left {
-        font-size: 2rem;
-
-    }
-
-    .sub {
-        font-size: 1.3rem;
-    }
-
-}
-
 
 
 header {
@@ -427,10 +392,47 @@ footer {
     justify-content: center;
 }
 
+
+
+@media (max-width: 1020px) {
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    nav {
+        margin-top: 30px;
+        font-size: 1.2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin: 0;
+    }
+
+    .destaque,
+    .left {
+        font-size: 2rem;
+
+    }
+
+    .sub {
+        font-size: 1.3rem;
+    }
+
+}
+
 @media (max-width: 700px) {
 
     #copo h2 {
-        font-size: 2.7rem;
+        font-size: 2.3rem;
+    }
+
+    #copo p {
+        font-size: 1rem;
     }
 
     nav {
@@ -458,7 +460,7 @@ footer {
     .sub1,
     .left1 {
         padding: 0px;
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .ultimo {
@@ -467,7 +469,8 @@ footer {
 
     .cabecalho p {
         padding: 0px;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
 }
+
