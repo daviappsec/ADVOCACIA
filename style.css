@@ -53,40 +53,7 @@
 
 }
 
-@media (max-width: 700px) {
 
-    header {
-        padding: 20px;
-    }
-
-    #copo h2 {
-        font-size: 0.9rem;
-    }
-
-
-    nav {
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 20px;
-    }
-
-    .destaque,
-    .left {
-        font-size: 1.5rem;
-    }
-
-    .sub {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-        .consulta,
-    .contato {
-        width: fit-content;
-        margin: 15px auto;
-    }
-
-}
 
 header {
     background-color: var(--text-color-2);
@@ -178,7 +145,7 @@ main {
 
 #copo h2 {
     color: var(--color-3);
-    font-size: 3.3rem;
+    font-size: 3.9rem;
     padding: 20px;
     margin-left: 25px;
 
@@ -458,4 +425,49 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media (max-width: 700px) {
+
+    #copo h2 {
+        font-size: 2.7rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .destaque,
+    .left {
+        font-size: 2.5rem;
+    }
+
+    .sub {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .consulta,
+    .contato {
+        width: fit-content;
+        margin: 0px 0px 0px 25px;
+    }
+
+    .destaque1,
+    .sub1,
+    .left1 {
+        padding: 0px;
+        font-size: 1rem;
+    }
+
+    .ultimo {
+        font-size: 0.7rem;
+    }
+
+    .cabecalho p {
+        padding: 0px;
+        font-size: 0.7rem;
+    }
+
 }
